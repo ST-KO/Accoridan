@@ -49,25 +49,29 @@ const Accordian = () =>{
     };
 
     return (
-        <div className='wrapper'>
-            <button className='multiple-button' onClick={setMultipleTrue}>Enable Multiple Selections</button>
-            <div className='accordian'>
-                {
-                    data?.length > 0 ? 
-                    data.map(data => 
-                        <div key={data.id} onClick={() => handleOnClick(data)} 
-                             className='item'>
-                            <div className='title'>
-                                <h3>{data.question}</h3>
-                                <span>+</span>
+       <>
+            
+            <div className='wrapper'>
+            <h1>Accordian</h1>
+                <button className='multiple-button' onClick={setMultipleTrue}>Enable Multiple Selections</button>
+                <div className='accordian'>
+                    {
+                        data?.length > 0 ? 
+                        data.map(data => 
+                            <div key={data.id} onClick={() => handleOnClick(data)} 
+                                className='item'>
+                                <div className='title'>
+                                    <h3>{data.question}</h3>
+                                    <span>+</span>
+                                </div>
+                                {answer(data)}
                             </div>
-                            {answer(data)}
-                        </div>
-                    )
-                    : <div>No Data Found</div>
-                }
+                        )
+                        : <div>No Data Found</div>
+                    }
+                </div>
             </div>
-        </div>
+       </>
     );
 };
 
