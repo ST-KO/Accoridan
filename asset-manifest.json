@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Accoridan/static/css/main.d841070b.css",
+    "main.js": "/Accoridan/static/js/main.6327d88f.js",
+    "static/js/453.9d50e167.chunk.js": "/Accoridan/static/js/453.9d50e167.chunk.js",
+    "index.html": "/Accoridan/index.html",
+    "main.d841070b.css.map": "/Accoridan/static/css/main.d841070b.css.map",
+    "main.6327d88f.js.map": "/Accoridan/static/js/main.6327d88f.js.map",
+    "453.9d50e167.chunk.js.map": "/Accoridan/static/js/453.9d50e167.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d841070b.css",
+    "static/js/main.6327d88f.js"
+  ]
+}
