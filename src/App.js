@@ -10,12 +10,12 @@ function App() {
   
   return (
     <div className="App">
-      {/* <Accordian />
+      <Accordian />
       <RandomColor />
       <StarRating 
         numOfStars={10} 
       />
-      <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"}/> */}
+      <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"}/>
       <LoadMoreData />
     </div>
   );
