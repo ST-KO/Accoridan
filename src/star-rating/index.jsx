@@ -37,22 +37,12 @@ const StarRating = (props) => {
     
 
     return (
-        <div className="star-rating">
-            {/* {
-                [...Array(props.numOfStars)].map((_,index) => {
-                    return (
-                        <FaStar 
-                            key={index} 
-                            
-                        />
-                    );
-                })
-                
-            } */}
-
-            {Star}
-            {/* <Star /> */}
-        </div>
+        <>
+            <h1 className="star-rating-heading">Star Rating</h1>
+            <div className="star-rating">
+                {Star}
+            </div>
+        </>
     );
 };
 

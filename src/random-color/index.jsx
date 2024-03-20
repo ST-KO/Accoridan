@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const RandomColor = () => {
     
     const [colorType, setColorType] = React.useState('hex');
@@ -8,7 +9,7 @@ const RandomColor = () => {
     const styles = {
         width: "100vw",
         height: "60vh",
-        background: color
+        background: color,
     }
 
     // React.useEffect(() => {
@@ -50,9 +51,12 @@ const RandomColor = () => {
     return (
         <>
             <h1>Random Color Generator</h1>
-            <div className="container" style={styles}>
-                <button onClick={() => createRandomHexColor()}>Create HEX Color</button>
-                <button onClick={() => createRandomRGBColor()}>Create RGB Color</button>
+            <div style={styles}>
+                <div>
+                    <button onClick={() => createRandomHexColor()}>Create HEX Color</button>
+                    <button onClick={() => createRandomRGBColor()}>Create RGB Color</button>
+                </div>
+                
                 <div>
                     <h1>{colorType}</h1>
                     <h3>{color}</h3>

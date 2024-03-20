@@ -1,7 +1,18 @@
+.star-rating-heading{
+    margin-top: 60px;
+}
+
+.star-rating{
+    margin-bottom: 60px;
+}
+
 .active{
     color: yellow;
+    font-size: 40px;
 }
 
 .not-active{
     color: black;
+    font-size: 40px;
 }
+
