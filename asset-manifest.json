@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Accoridan/static/css/main.c524efb6.css",
-    "main.js": "/Accoridan/static/js/main.31bdcc51.js",
+    "main.js": "/Accoridan/static/js/main.189170b8.js",
     "static/js/453.9d50e167.chunk.js": "/Accoridan/static/js/453.9d50e167.chunk.js",
     "index.html": "/Accoridan/index.html",
     "main.c524efb6.css.map": "/Accoridan/static/css/main.c524efb6.css.map",
-    "main.31bdcc51.js.map": "/Accoridan/static/js/main.31bdcc51.js.map",
+    "main.189170b8.js.map": "/Accoridan/static/js/main.189170b8.js.map",
     "453.9d50e167.chunk.js.map": "/Accoridan/static/js/453.9d50e167.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c524efb6.css",
-    "static/js/main.31bdcc51.js"
+    "static/js/main.189170b8.js"
   ]
 }
