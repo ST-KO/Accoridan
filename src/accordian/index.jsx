@@ -53,7 +53,10 @@ const Accordian = () =>{
             
             <div className='wrapper'>
             <h1>Accordian</h1>
-                <button className='multiple-button' onClick={setMultipleTrue}>Enable Multiple Selections</button>
+                <button className='multiple-button' onClick={setMultipleTrue}>
+                    {!multiple ? "Enable Multiple Selections" : "Enable Single Selections"}
+                </button>
+                <h3>{!multiple ? "Single Selections" : "Multiple Selections"}</h3>
                 <div className='accordian'>
                     {
                         data?.length > 0 ? 
