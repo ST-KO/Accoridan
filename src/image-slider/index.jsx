@@ -56,7 +56,7 @@ const ImageSlider = ({url, limit = 5}) => {
     return (
         <>
             <h1>Image Slider</h1>
-            <div className="container">
+            <div className="image-slider-container">
                 <BsArrowLeftCircleFill onClick={handlePrevious} className='arrow arrow-left'/>
                 {
                     images?.map((item, index) => ( 

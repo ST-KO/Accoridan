@@ -1,11 +1,11 @@
-.container{
+.image-slider-container{
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     width: 600px;
     height: 450px;
-    margin: auto;
+    margin: 0 auto 60px auto;
 }
 
 .current-image{

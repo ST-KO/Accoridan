@@ -58,25 +58,28 @@ const LoadMoreData = () => {
     }
     
     return (
-        <div className="load-more-container">
-            <div className='product-container'>
-                {
-                    products.map(item => 
-                        <div key={item.id} className='product'>
-                            <img src={item.thumbnail} alt={item.title} />
-                            <p>{item.title}</p>
-                        </div>
-                    )
-                }
+        <>
+            <h1>Load More Data</h1>
+            <div className="load-more-container">
+                <div className='product-container'>
+                    {
+                        products.map(item => 
+                            <div key={item.id} className='product'>
+                                <img src={item.thumbnail} alt={item.title} />
+                                <p>{item.title}</p>
+                            </div>
+                        )
+                    }
+                </div>
+                <div className='button-cointainer'>
+                    <button disabled={disableButton} onClick={checkProductCount}>
+                        Load More Products
+                    </button>
+                    {disableButton ? <p>You have reached to 100 products</p> : null}
+                </div>
             </div>
-            <div className='button-cointainer'>
-                <button disabled={disableButton} onClick={checkProductCount}>
-                    Load More Products
-                </button>
-                {disableButton ? <p>You have reached to 100 products</p> : null}
-            </div>
-        </div>
         
+        </>
     );
 };
 
